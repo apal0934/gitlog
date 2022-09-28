@@ -3,7 +3,7 @@
 Quick powershell script to generate the correct logs for a branch to add to the JIRA check-in details.
 
 ## Usage
-Choose either `gitlog-tradition.ps1` for TortoiseSVN style logs or `gitlog.ps1` for a slightly updated look, chuck it in a folder that is on your $PATH (make sure you rename `gitlog-traditional.ps1` to `gitlog.ps1` if you've chosen it).
+Add either the `traditional/` folder or `updated/` folder to your $PATH. The traditional version will generate the TortoiseSVN style logs, whereas the updated version will generate logs containing the exact same text content but with an updated formatting.
 
 Set your execution policy ([see here](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.2)), cd to your git folder and run the command! Your logs will be copied to the clipboard.
 
