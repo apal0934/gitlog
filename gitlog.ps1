@@ -33,7 +33,7 @@ if ($commits -gt 0)
     $num_commits = "-$commits"
 }
 
-$format = "format:________________________________________%n%<|(8)Commit:%<|(8)%h%n%<|(8)Author:%<|(8)%an <%ae>%n%<|(8)Date:%<|(8)%cD%n%<|(8)Message:%<|(8)%s%w(0, 0, 9)%+b%-C()%n%n%w(0)Changes:"
+$format = "format:%<|(9)Commit:%<|(9)%h%n%<|(8)Author:%<|(8)%an <%ae>%n%<|(8)Date:%<|(8)%cD%n%<|(8)Message:%<|(8)%s%w(0, 0, 9)%+b%-C()%n%w(0)----------------------------------------"
 
 if ($commit -ne "")
 {
