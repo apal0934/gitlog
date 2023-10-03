@@ -42,8 +42,6 @@ if ($commits -gt 0)
     $num_commits = "-$commits"
 }
 
-$format = "format:Revision: %h%nAuthor: %an <%ae>%nDate: %cD%nMessage:%+B%-C()%n----"
-
 if ($commit -ne "")
 {
     $log = git show --format=$format --name-status -m $commit
